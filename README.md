@@ -1,6 +1,6 @@
 # Seq Playground
 
-Seq playground for compiling and running code remotely
+Playground for compiling and running Seq code remotely.
 
 ## Requirements
 
@@ -51,8 +51,8 @@ $.ajax({
 If you see the following warning from Docker:
 
 <pre>
-	WARNING: Your kernel does not support swap limit capabilities
-	or the cgroup is not mounted. Memory limited without swap.
+WARNING: Your kernel does not support swap limit capabilities
+or the cgroup is not mounted. Memory limited without swap.
 </pre>
 
 follow the instructions [here](https://www.serverlab.ca/tutorials/containers/docker/how-to-limit-memory-and-cpu-for-docker-containers/) to resolve it.
