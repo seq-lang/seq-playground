@@ -26,7 +26,7 @@ Playground for compiling and running Seq code remotely.
 ## JavaScript example
 
 ```javascript
-var code = 'print 2 + 2'
+var code = 'print 2 + 2';
 $.ajax({
     url: 'http://157.230.95.210:8000/seq_exec',
     dataType: 'text',
