@@ -6,6 +6,7 @@ Playground for compiling and running Seq code remotely.
 
 - Python 3
 - Flask
+- Flask-CORS
 - Docker
 
 ## Usage

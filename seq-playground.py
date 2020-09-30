@@ -1,8 +1,10 @@
 from flask import Flask
 from flask import request
+from flask_cors import CORS
 from subprocess import run, PIPE, STDOUT, TimeoutExpired
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/seq_exec',  methods=['POST'])
 def seq_exec():
