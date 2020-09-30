@@ -4,10 +4,10 @@ Playground for compiling and running Seq code remotely.
 
 ## Requirements
 
-- Python 3
-- Flask
-- Flask-CORS
-- Docker
+- [Python 3](https://www.python.org)
+- [Flask](https://flask.palletsprojects.com/)
+- [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/)
+- [Docker](https://www.docker.com)
 
 ## Usage
 
