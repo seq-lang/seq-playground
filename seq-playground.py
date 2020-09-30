@@ -13,7 +13,7 @@ def seq_exec():
         return ''
     code = req_data['code']
     try:
-        p = run(['docker', 'run', '--memory', '1024m', '--memory-swap', '0', '-i', '--rm', 'seq-playground', 'seqc'],
+        p = run(['docker', 'run', '--memory', '1024m', '--memory-swap', '0', '-i', '--rm', 'seq-playground', 'seqc', '-d'],
                 stdout=PIPE, stderr=STDOUT, input=str.encode(code), timeout=20)
     except TimeoutExpired:
         return 'execution timed out'
